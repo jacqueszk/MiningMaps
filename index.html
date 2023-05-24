@@ -1,0 +1,1531 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fc8008665e1fe1a664c8c20d3bad7fa7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_fc8008665e1fe1a664c8c20d3bad7fa7" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_fc8008665e1fe1a664c8c20d3bad7fa7 = L.map(
+                "map_fc8008665e1fe1a664c8c20d3bad7fa7",
+                {
+                    center: [23.6345, -102.5528],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_81fd812af29705206eee9819c0d8e18f = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var marker_455d620353eb1ced1d499f49ae21981b = L.marker(
+                [30.967, -110.3],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_9f31a5b929063ff79b47dee839a20de5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_455d620353eb1ced1d499f49ae21981b.setIcon(icon_9f31a5b929063ff79b47dee839a20de5);
+        
+    
+        var popup_719f9a15ddb8d5bd375497ab2abfcc19 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a77326424d5fcc496291aefadc81dd1 = $(`<div id="html_4a77326424d5fcc496291aefadc81dd1" style="width: 100.0%; height: 100.0%;">Cananea Copper Mine Location: Sonora Company: Grupo México Mining Method: Open-pit</div>`)[0];
+                popup_719f9a15ddb8d5bd375497ab2abfcc19.setContent(html_4a77326424d5fcc496291aefadc81dd1);
+            
+        
+
+        marker_455d620353eb1ced1d499f49ae21981b.bindPopup(popup_719f9a15ddb8d5bd375497ab2abfcc19)
+        ;
+
+        
+    
+    
+            var marker_b0a9df13e67cfa65875132c4dd8ced46 = L.marker(
+                [23.176, -102.88],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_7dbd45aaef37618b84a230ed8297ddd6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "brown", "prefix": "fa"}
+            );
+            marker_b0a9df13e67cfa65875132c4dd8ced46.setIcon(icon_7dbd45aaef37618b84a230ed8297ddd6);
+        
+    
+        var popup_6e843e36846ad54fc4c9741d31cb26ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec0e916a62b7d1321bdf64b95883726e = $(`<div id="html_ec0e916a62b7d1321bdf64b95883726e" style="width: 100.0%; height: 100.0%;">Fresnillo Mine Location: Zacatecas Company: Fresnillo plc Mining Method: Underground</div>`)[0];
+                popup_6e843e36846ad54fc4c9741d31cb26ec.setContent(html_ec0e916a62b7d1321bdf64b95883726e);
+            
+        
+
+        marker_b0a9df13e67cfa65875132c4dd8ced46.bindPopup(popup_6e843e36846ad54fc4c9741d31cb26ec)
+        ;
+
+        
+    
+    
+            var marker_195eb6742388f0797e68c5340840e1fe = L.marker(
+                [23.367, -103.885],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_5442a33e117212716716e2fa888382ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_195eb6742388f0797e68c5340840e1fe.setIcon(icon_5442a33e117212716716e2fa888382ff);
+        
+    
+        var popup_da303c8568e0685026aea7222225c99a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3574673d2a119ee4f0203e7d3a13e852 = $(`<div id="html_3574673d2a119ee4f0203e7d3a13e852" style="width: 100.0%; height: 100.0%;">Peñasquito Mine Location: Zacatecas Company: Newmont Corporation Mining Method: Open-pit</div>`)[0];
+                popup_da303c8568e0685026aea7222225c99a.setContent(html_3574673d2a119ee4f0203e7d3a13e852);
+            
+        
+
+        marker_195eb6742388f0797e68c5340840e1fe.bindPopup(popup_da303c8568e0685026aea7222225c99a)
+        ;
+
+        
+    
+    
+            var marker_44e7d8c512e17bb76c215ec5ecd81176 = L.marker(
+                [24.336, -105.185],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_27caf52a9e033fe3ec03363f7042cab0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "brown", "prefix": "fa"}
+            );
+            marker_44e7d8c512e17bb76c215ec5ecd81176.setIcon(icon_27caf52a9e033fe3ec03363f7042cab0);
+        
+    
+        var popup_6281a909fe35fd2403e69bfced8cc707 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_77f51ecde9d47076d17710dfb5d785e5 = $(`<div id="html_77f51ecde9d47076d17710dfb5d785e5" style="width: 100.0%; height: 100.0%;">San Dimas Mine Location: Durango Company: First Majestic Silver Mining Method: Underground</div>`)[0];
+                popup_6281a909fe35fd2403e69bfced8cc707.setContent(html_77f51ecde9d47076d17710dfb5d785e5);
+            
+        
+
+        marker_44e7d8c512e17bb76c215ec5ecd81176.bindPopup(popup_6281a909fe35fd2403e69bfced8cc707)
+        ;
+
+        
+    
+    
+            var marker_2ae843c76e78a7e3325d883d90bc42d3 = L.marker(
+                [18.195, -99.781],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_2bfb7f6729259aa37436c00073de0905 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_2ae843c76e78a7e3325d883d90bc42d3.setIcon(icon_2bfb7f6729259aa37436c00073de0905);
+        
+    
+        var popup_6d499067c36f0b4eaa08f21f12d1b99b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2193389791e77cf88ebd9de1b7000990 = $(`<div id="html_2193389791e77cf88ebd9de1b7000990" style="width: 100.0%; height: 100.0%;">Los Filos Mine Location: Guerrero Company: Equinox Gold Mining Method: Open-pit</div>`)[0];
+                popup_6d499067c36f0b4eaa08f21f12d1b99b.setContent(html_2193389791e77cf88ebd9de1b7000990);
+            
+        
+
+        marker_2ae843c76e78a7e3325d883d90bc42d3.bindPopup(popup_6d499067c36f0b4eaa08f21f12d1b99b)
+        ;
+
+        
+    
+    
+            var marker_0d212c1bfceb8c0331942692d0ad3387 = L.marker(
+                [27.431, -108.211],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_322dedfe473fe7829514167bef45e686 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "brown", "prefix": "fa"}
+            );
+            marker_0d212c1bfceb8c0331942692d0ad3387.setIcon(icon_322dedfe473fe7829514167bef45e686);
+        
+    
+        var popup_c0f17c0fb620f1df2ca6646351b638ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf0ce59490e065fd01d47ed0f7bc41d2 = $(`<div id="html_cf0ce59490e065fd01d47ed0f7bc41d2" style="width: 100.0%; height: 100.0%;">Pinos Altos Mine Location: Chihuahua Company: Agnico Eagle Mines Mining Method: Underground</div>`)[0];
+                popup_c0f17c0fb620f1df2ca6646351b638ac.setContent(html_cf0ce59490e065fd01d47ed0f7bc41d2);
+            
+        
+
+        marker_0d212c1bfceb8c0331942692d0ad3387.bindPopup(popup_c0f17c0fb620f1df2ca6646351b638ac)
+        ;
+
+        
+    
+    
+            var marker_084a422f6655511359c584e5945257f8 = L.marker(
+                [28.381, -107.458],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_d6a8a9259445df923fa80bb857386d5d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "brown", "prefix": "fa"}
+            );
+            marker_084a422f6655511359c584e5945257f8.setIcon(icon_d6a8a9259445df923fa80bb857386d5d);
+        
+    
+        var popup_51ecd04249eb8f39c0b8370988093338 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_90ec6371b00a0a98ba500712fe5ce8f7 = $(`<div id="html_90ec6371b00a0a98ba500712fe5ce8f7" style="width: 100.0%; height: 100.0%;">Palmarejo Mine Location: Chihuahua Company: Coeur Mining Mining Method: Underground</div>`)[0];
+                popup_51ecd04249eb8f39c0b8370988093338.setContent(html_90ec6371b00a0a98ba500712fe5ce8f7);
+            
+        
+
+        marker_084a422f6655511359c584e5945257f8.bindPopup(popup_51ecd04249eb8f39c0b8370988093338)
+        ;
+
+        
+    
+    
+            var marker_c83a0e6b6bfa1f8076bd44b73ff975fb = L.marker(
+                [29.383, -110.515],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_091fa16dab68f4c03e26f0e5df134f57 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_c83a0e6b6bfa1f8076bd44b73ff975fb.setIcon(icon_091fa16dab68f4c03e26f0e5df134f57);
+        
+    
+        var popup_36e6bf7ab928940be4465cf34ffb9229 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_318fed088955e232eb045eb270b056b6 = $(`<div id="html_318fed088955e232eb045eb270b056b6" style="width: 100.0%; height: 100.0%;">La Herradura Mine Location: Sonora Company: Fresnillo plc Mining Method: Open-pit</div>`)[0];
+                popup_36e6bf7ab928940be4465cf34ffb9229.setContent(html_318fed088955e232eb045eb270b056b6);
+            
+        
+
+        marker_c83a0e6b6bfa1f8076bd44b73ff975fb.bindPopup(popup_36e6bf7ab928940be4465cf34ffb9229)
+        ;
+
+        
+    
+    
+            var marker_de76533c0a5249e91c506707a69b1eb8 = L.marker(
+                [27.211, -109.956],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_2233a51cea82559c3c269f10320eb00e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_de76533c0a5249e91c506707a69b1eb8.setIcon(icon_2233a51cea82559c3c269f10320eb00e);
+        
+    
+        var popup_c591adc5c2c30b11ccbe8a2fbc21f0c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_321e7026df9a53ca061eeef468bfe33a = $(`<div id="html_321e7026df9a53ca061eeef468bfe33a" style="width: 100.0%; height: 100.0%;">El Chanate Mine Location: Sonora Company: AuRico Gold Mining Method: Open-pit</div>`)[0];
+                popup_c591adc5c2c30b11ccbe8a2fbc21f0c2.setContent(html_321e7026df9a53ca061eeef468bfe33a);
+            
+        
+
+        marker_de76533c0a5249e91c506707a69b1eb8.bindPopup(popup_c591adc5c2c30b11ccbe8a2fbc21f0c2)
+        ;
+
+        
+    
+    
+            var marker_e72cbd80a574649ff82c29ec51069e09 = L.marker(
+                [28.789, -110.987],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_eecbd3a11f9dcc6da02068ecd05d3431 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "brown", "prefix": "fa"}
+            );
+            marker_e72cbd80a574649ff82c29ec51069e09.setIcon(icon_eecbd3a11f9dcc6da02068ecd05d3431);
+        
+    
+        var popup_586a36892f8269434340b9e73acbe63c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bbdc76c6791aa1e096781ce9b2ed8e49 = $(`<div id="html_bbdc76c6791aa1e096781ce9b2ed8e49" style="width: 100.0%; height: 100.0%;">La Colorada Mine Location: Sonora Company: Pan American Silver Mining Method: Underground</div>`)[0];
+                popup_586a36892f8269434340b9e73acbe63c.setContent(html_bbdc76c6791aa1e096781ce9b2ed8e49);
+            
+        
+
+        marker_e72cbd80a574649ff82c29ec51069e09.bindPopup(popup_586a36892f8269434340b9e73acbe63c)
+        ;
+
+        
+    
+    
+            var marker_9cda6933ef7c43ff38a93aab22f4769e = L.marker(
+                [31.033, -112.214],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_532eb087bc07f83f0e139139494924d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_9cda6933ef7c43ff38a93aab22f4769e.setIcon(icon_532eb087bc07f83f0e139139494924d4);
+        
+    
+        var popup_e1e39f5229815479aa42a3a4b0090130 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_58ff2a02a4c1d49ee47d5bce52f2fdea = $(`<div id="html_58ff2a02a4c1d49ee47d5bce52f2fdea" style="width: 100.0%; height: 100.0%;">San Francisco Mine Location: Sonora Company: Alio Gold Mining Method: Open-pit</div>`)[0];
+                popup_e1e39f5229815479aa42a3a4b0090130.setContent(html_58ff2a02a4c1d49ee47d5bce52f2fdea);
+            
+        
+
+        marker_9cda6933ef7c43ff38a93aab22f4769e.bindPopup(popup_e1e39f5229815479aa42a3a4b0090130)
+        ;
+
+        
+    
+    
+            var marker_62b7739e97a1faac069e2e4c6f890976 = L.marker(
+                [29.072, -108.941],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_e867992fefd29a306f80461fafa7b476 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_62b7739e97a1faac069e2e4c6f890976.setIcon(icon_e867992fefd29a306f80461fafa7b476);
+        
+    
+        var popup_9b0db0fe1d3266b46b839df7d2256704 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4de19769a5f282ad8fea4df276f1a30 = $(`<div id="html_f4de19769a5f282ad8fea4df276f1a30" style="width: 100.0%; height: 100.0%;">Mulatos Mine Location: Sonora Company: Alamos Gold Mining Method: Open-pit</div>`)[0];
+                popup_9b0db0fe1d3266b46b839df7d2256704.setContent(html_f4de19769a5f282ad8fea4df276f1a30);
+            
+        
+
+        marker_62b7739e97a1faac069e2e4c6f890976.bindPopup(popup_9b0db0fe1d3266b46b839df7d2256704)
+        ;
+
+        
+    
+    
+            var marker_e085222ba75b3c482d3e1abd46e50f0c = L.marker(
+                [28.395, -107.078],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_6237d29704aa3c3362980883c1af0189 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e085222ba75b3c482d3e1abd46e50f0c.setIcon(icon_6237d29704aa3c3362980883c1af0189);
+        
+    
+        var popup_44c2d4c972c172f932d2605e98e3c20e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc1f92977d69164176fe2bf59049065c = $(`<div id="html_cc1f92977d69164176fe2bf59049065c" style="width: 100.0%; height: 100.0%;">Ocampo Mine Location: Chihuahua Company: Argonaut Gold Mining Method: Open-pit</div>`)[0];
+                popup_44c2d4c972c172f932d2605e98e3c20e.setContent(html_cc1f92977d69164176fe2bf59049065c);
+            
+        
+
+        marker_e085222ba75b3c482d3e1abd46e50f0c.bindPopup(popup_44c2d4c972c172f932d2605e98e3c20e)
+        ;
+
+        
+    
+    
+            var marker_6c3596225ed0d8517711eee2d5b4dbfb = L.marker(
+                [23.375, -102.703],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_2b811c4b7c24e39a0ae64c59e6b0c54e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "brown", "prefix": "fa"}
+            );
+            marker_6c3596225ed0d8517711eee2d5b4dbfb.setIcon(icon_2b811c4b7c24e39a0ae64c59e6b0c54e);
+        
+    
+        var popup_ad5518322cf81f3a36f82eaf29ffc70b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e63d5d87226927f61ec5a35fa7bfcf19 = $(`<div id="html_e63d5d87226927f61ec5a35fa7bfcf19" style="width: 100.0%; height: 100.0%;">Saucito Mine Location: Zacatecas Company: Fresnillo plc Mining Method: Underground</div>`)[0];
+                popup_ad5518322cf81f3a36f82eaf29ffc70b.setContent(html_e63d5d87226927f61ec5a35fa7bfcf19);
+            
+        
+
+        marker_6c3596225ed0d8517711eee2d5b4dbfb.bindPopup(popup_ad5518322cf81f3a36f82eaf29ffc70b)
+        ;
+
+        
+    
+    
+            var marker_9cf4f7337ca53b5b310018fd5b27a265 = L.marker(
+                [31.72, -109.257],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_d40de689c5035341eef55a21fba3f984 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_9cf4f7337ca53b5b310018fd5b27a265.setIcon(icon_d40de689c5035341eef55a21fba3f984);
+        
+    
+        var popup_22778c18d739271a2fde2b3ce54bef50 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_577c3eba8022ac655a357226c6ab7aae = $(`<div id="html_577c3eba8022ac655a357226c6ab7aae" style="width: 100.0%; height: 100.0%;">Santa Elena Mine Location: Sonora Company: First Majestic Silver Mining Method: Open-pit</div>`)[0];
+                popup_22778c18d739271a2fde2b3ce54bef50.setContent(html_577c3eba8022ac655a357226c6ab7aae);
+            
+        
+
+        marker_9cf4f7337ca53b5b310018fd5b27a265.bindPopup(popup_22778c18d739271a2fde2b3ce54bef50)
+        ;
+
+        
+    
+    
+            var marker_a3a5270baa1512dbbaa5cef0230faec1 = L.marker(
+                [24.071, -104.539],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_a7fb0faae4b9bd313946c0c80de00c80 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "brown", "prefix": "fa"}
+            );
+            marker_a3a5270baa1512dbbaa5cef0230faec1.setIcon(icon_a7fb0faae4b9bd313946c0c80de00c80);
+        
+    
+        var popup_bef017b244e6cb2df531bd539ac670bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fabb2352799464b5603f7c9be97a3f1e = $(`<div id="html_fabb2352799464b5603f7c9be97a3f1e" style="width: 100.0%; height: 100.0%;">La Ciénega Mine Location: Durango Company: Fresnillo plc Mining Method: Underground</div>`)[0];
+                popup_bef017b244e6cb2df531bd539ac670bf.setContent(html_fabb2352799464b5603f7c9be97a3f1e);
+            
+        
+
+        marker_a3a5270baa1512dbbaa5cef0230faec1.bindPopup(popup_bef017b244e6cb2df531bd539ac670bf)
+        ;
+
+        
+    
+    
+            var marker_37c9c94cb958dc5d40cb2b0cc9a12960 = L.marker(
+                [24.881, -105.323],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_0303260bfa64e5847fed0978cf6301ac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "brown", "prefix": "fa"}
+            );
+            marker_37c9c94cb958dc5d40cb2b0cc9a12960.setIcon(icon_0303260bfa64e5847fed0978cf6301ac);
+        
+    
+        var popup_33964b020908ebfa153bbd6779d20b5e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_91946bfad8d7054ff36f3609a06cfad0 = $(`<div id="html_91946bfad8d7054ff36f3609a06cfad0" style="width: 100.0%; height: 100.0%;">Guanaceví Mine Location: Durango Company: Endeavour Silver Mining Method: Underground</div>`)[0];
+                popup_33964b020908ebfa153bbd6779d20b5e.setContent(html_91946bfad8d7054ff36f3609a06cfad0);
+            
+        
+
+        marker_37c9c94cb958dc5d40cb2b0cc9a12960.bindPopup(popup_33964b020908ebfa153bbd6779d20b5e)
+        ;
+
+        
+    
+    
+            var marker_1649515bc8bd804f5c91cef7cc15078c = L.marker(
+                [26.93, -105.655],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_a5fbab29653008ee9a669e54797bc147 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "brown", "prefix": "fa"}
+            );
+            marker_1649515bc8bd804f5c91cef7cc15078c.setIcon(icon_a5fbab29653008ee9a669e54797bc147);
+        
+    
+        var popup_05c0725b18f8764100979235609bcd7f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81c779a8cc4554c56ebd64cf841564dc = $(`<div id="html_81c779a8cc4554c56ebd64cf841564dc" style="width: 100.0%; height: 100.0%;">Parral Mine Location: Chihuahua Company: Southern Copper Mining Method: Underground</div>`)[0];
+                popup_05c0725b18f8764100979235609bcd7f.setContent(html_81c779a8cc4554c56ebd64cf841564dc);
+            
+        
+
+        marker_1649515bc8bd804f5c91cef7cc15078c.bindPopup(popup_05c0725b18f8764100979235609bcd7f)
+        ;
+
+        
+    
+    
+            var marker_a0f1c8583b2cf89de8feca0ed757199d = L.marker(
+                [26.653, -105.652],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_8e0ba50ffe56f7af1a70a3084a1fa92b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_a0f1c8583b2cf89de8feca0ed757199d.setIcon(icon_8e0ba50ffe56f7af1a70a3084a1fa92b);
+        
+    
+        var popup_40c5e7bd41c7bbdc076b28331a108bd8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b8d6cdb0434f727667f8f786a02733d = $(`<div id="html_5b8d6cdb0434f727667f8f786a02733d" style="width: 100.0%; height: 100.0%;">San Julian Mine Location: Chihuahua Company: Fresnillo plc Mining Method: Open-pit</div>`)[0];
+                popup_40c5e7bd41c7bbdc076b28331a108bd8.setContent(html_5b8d6cdb0434f727667f8f786a02733d);
+            
+        
+
+        marker_a0f1c8583b2cf89de8feca0ed757199d.bindPopup(popup_40c5e7bd41c7bbdc076b28331a108bd8)
+        ;
+
+        
+    
+    
+            var marker_b0496f97ee027bab221203c4f32c424b = L.marker(
+                [25.085, -103.791],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_4abcdd938349e1d441f8ffe1cee77789 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "brown", "prefix": "fa"}
+            );
+            marker_b0496f97ee027bab221203c4f32c424b.setIcon(icon_4abcdd938349e1d441f8ffe1cee77789);
+        
+    
+        var popup_53ecd78dbe7cccc96d611b18ef45e7c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06da849073d71dcc2d1f3c7e1951203d = $(`<div id="html_06da849073d71dcc2d1f3c7e1951203d" style="width: 100.0%; height: 100.0%;">La Platosa Mine Location: Durango Company: Plata Latina Minerals Mining Method: Underground</div>`)[0];
+                popup_53ecd78dbe7cccc96d611b18ef45e7c8.setContent(html_06da849073d71dcc2d1f3c7e1951203d);
+            
+        
+
+        marker_b0496f97ee027bab221203c4f32c424b.bindPopup(popup_53ecd78dbe7cccc96d611b18ef45e7c8)
+        ;
+
+        
+    
+    
+            var marker_aa52e5c34ead683021376a77212915cc = L.marker(
+                [28.383, -109.757],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_449d54915beb53d9565a49237843d690 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_aa52e5c34ead683021376a77212915cc.setIcon(icon_449d54915beb53d9565a49237843d690);
+        
+    
+        var popup_a61fb2515dfad23019a6df7d56021182 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f10eb0917104dffc30a26d9af66db26d = $(`<div id="html_f10eb0917104dffc30a26d9af66db26d" style="width: 100.0%; height: 100.0%;">La Caridad Mine Location: Sonora Company: Grupo México Mining Method: Open-pit</div>`)[0];
+                popup_a61fb2515dfad23019a6df7d56021182.setContent(html_f10eb0917104dffc30a26d9af66db26d);
+            
+        
+
+        marker_aa52e5c34ead683021376a77212915cc.bindPopup(popup_a61fb2515dfad23019a6df7d56021182)
+        ;
+
+        
+    
+    
+            var marker_8cebd0da7494b64d97f7a5fd5aba861e = L.marker(
+                [23.634, -103.1],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_9d3a90cd9e2b09e7a7838eb00fbbc05c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "brown", "prefix": "fa"}
+            );
+            marker_8cebd0da7494b64d97f7a5fd5aba861e.setIcon(icon_9d3a90cd9e2b09e7a7838eb00fbbc05c);
+        
+    
+        var popup_de2a8829ee37f1381435f83b4ca260a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8325fde069b032796830a3671744fb18 = $(`<div id="html_8325fde069b032796830a3671744fb18" style="width: 100.0%; height: 100.0%;">Del Toro Mine Location: Zacatecas Company: First Majestic Silver Mining Method: Underground</div>`)[0];
+                popup_de2a8829ee37f1381435f83b4ca260a0.setContent(html_8325fde069b032796830a3671744fb18);
+            
+        
+
+        marker_8cebd0da7494b64d97f7a5fd5aba861e.bindPopup(popup_de2a8829ee37f1381435f83b4ca260a0)
+        ;
+
+        
+    
+    
+            var marker_8ad50eaefcf5607af2209c3786cfea13 = L.marker(
+                [26.424, -107.292],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_a2e55581049a04a6a3a0659c2a1f75cc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "brown", "prefix": "fa"}
+            );
+            marker_8ad50eaefcf5607af2209c3786cfea13.setIcon(icon_a2e55581049a04a6a3a0659c2a1f75cc);
+        
+    
+        var popup_ad8961fe3a2f764c71dd138b4518b587 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a273838df4252a33d370da57a2a754bc = $(`<div id="html_a273838df4252a33d370da57a2a754bc" style="width: 100.0%; height: 100.0%;">Cusi Mine Location: Chihuahua Company: Sierra Metals Mining Method: Underground</div>`)[0];
+                popup_ad8961fe3a2f764c71dd138b4518b587.setContent(html_a273838df4252a33d370da57a2a754bc);
+            
+        
+
+        marker_8ad50eaefcf5607af2209c3786cfea13.bindPopup(popup_ad8961fe3a2f764c71dd138b4518b587)
+        ;
+
+        
+    
+    
+            var marker_f70d0c9974d4df695c06e974ea407fbe = L.marker(
+                [24.029, -104.664],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_85d85f536bc230b356cdd5d591c0f8c7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_f70d0c9974d4df695c06e974ea407fbe.setIcon(icon_85d85f536bc230b356cdd5d591c0f8c7);
+        
+    
+        var popup_e2ab97c380e398c8b01c461f7a8d529a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b7995d5f319b58f91cf59331fb4ab68c = $(`<div id="html_b7995d5f319b58f91cf59331fb4ab68c" style="width: 100.0%; height: 100.0%;">Cerro de Mercado Mine Location: Durango Company: Grupo Peñoles Mining Method: Open-pit</div>`)[0];
+                popup_e2ab97c380e398c8b01c461f7a8d529a.setContent(html_b7995d5f319b58f91cf59331fb4ab68c);
+            
+        
+
+        marker_f70d0c9974d4df695c06e974ea407fbe.bindPopup(popup_e2ab97c380e398c8b01c461f7a8d529a)
+        ;
+
+        
+    
+    
+            var marker_d4eb8999fe3f81d5efbed0ce6fdae040 = L.marker(
+                [27.778, -101.587],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_9765e40fd939ef47572973dc7420e568 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "brown", "prefix": "fa"}
+            );
+            marker_d4eb8999fe3f81d5efbed0ce6fdae040.setIcon(icon_9765e40fd939ef47572973dc7420e568);
+        
+    
+        var popup_2c46eda2919ea5319dc865e44e8dd2f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_581ae56ccfa1d4a459965d8d1ac9b4da = $(`<div id="html_581ae56ccfa1d4a459965d8d1ac9b4da" style="width: 100.0%; height: 100.0%;">La Encantada Mine Location: Coahuila Company: First Majestic Silver Mining Method: Underground</div>`)[0];
+                popup_2c46eda2919ea5319dc865e44e8dd2f8.setContent(html_581ae56ccfa1d4a459965d8d1ac9b4da);
+            
+        
+
+        marker_d4eb8999fe3f81d5efbed0ce6fdae040.bindPopup(popup_2c46eda2919ea5319dc865e44e8dd2f8)
+        ;
+
+        
+    
+    
+            var marker_dd5718b50bc4c2d4c40745700e5d1cbd = L.marker(
+                [24.341, -104.91],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_98c4a7a31642511a01f14a57e984f16a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "brown", "prefix": "fa"}
+            );
+            marker_dd5718b50bc4c2d4c40745700e5d1cbd.setIcon(icon_98c4a7a31642511a01f14a57e984f16a);
+        
+    
+        var popup_d719182c6c0b452f9b82687a68159ba3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_732a31eab8c340ca28bb970411a7b1e6 = $(`<div id="html_732a31eab8c340ca28bb970411a7b1e6" style="width: 100.0%; height: 100.0%;">La Parrilla Mine Location: Durango Company: First Majestic Silver Mining Method: Underground</div>`)[0];
+                popup_d719182c6c0b452f9b82687a68159ba3.setContent(html_732a31eab8c340ca28bb970411a7b1e6);
+            
+        
+
+        marker_dd5718b50bc4c2d4c40745700e5d1cbd.bindPopup(popup_d719182c6c0b452f9b82687a68159ba3)
+        ;
+
+        
+    
+    
+            var marker_55554261b76c040ab0c98af43c5db1ce = L.marker(
+                [19.899, -100.03],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_fb8738e26bae748a0159b79e52e25b7e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "brown", "prefix": "fa"}
+            );
+            marker_55554261b76c040ab0c98af43c5db1ce.setIcon(icon_fb8738e26bae748a0159b79e52e25b7e);
+        
+    
+        var popup_1bf54668d3ac18856d25c74d24642a8d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c0235f937f8243dbe2b304570ba42a1 = $(`<div id="html_2c0235f937f8243dbe2b304570ba42a1" style="width: 100.0%; height: 100.0%;">La Guitarra Mine Location: Mexico Company: Endeavour Silver Mining Method: Underground</div>`)[0];
+                popup_1bf54668d3ac18856d25c74d24642a8d.setContent(html_2c0235f937f8243dbe2b304570ba42a1);
+            
+        
+
+        marker_55554261b76c040ab0c98af43c5db1ce.bindPopup(popup_1bf54668d3ac18856d25c74d24642a8d)
+        ;
+
+        
+    
+    
+            var marker_99c635b472a1f7acd185d7ac044abaec = L.marker(
+                [16.958, -96.538],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_eb3201952891fea14d70cb3b980f67cc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "brown", "prefix": "fa"}
+            );
+            marker_99c635b472a1f7acd185d7ac044abaec.setIcon(icon_eb3201952891fea14d70cb3b980f67cc);
+        
+    
+        var popup_7e4e557689cc4a77ac041b3f5d434cc7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a630589ebe18ea12c614f76896f989d3 = $(`<div id="html_a630589ebe18ea12c614f76896f989d3" style="width: 100.0%; height: 100.0%;">Minaurum Gold Location: Oaxaca Company: Minaurum Gold Mining Method: Exploration</div>`)[0];
+                popup_7e4e557689cc4a77ac041b3f5d434cc7.setContent(html_a630589ebe18ea12c614f76896f989d3);
+            
+        
+
+        marker_99c635b472a1f7acd185d7ac044abaec.bindPopup(popup_7e4e557689cc4a77ac041b3f5d434cc7)
+        ;
+
+        
+    
+    
+            var marker_ee9e8c8a5502d3fd04bfe6de86d17de9 = L.marker(
+                [23.307, -103.61],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_67524af16ef533c3ecdac819a06a5969 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ee9e8c8a5502d3fd04bfe6de86d17de9.setIcon(icon_67524af16ef533c3ecdac819a06a5969);
+        
+    
+        var popup_1240370db9ab9366e0ef562e3f674fbb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df81c9a75b2d3b6e8b828349b16decc7 = $(`<div id="html_df81c9a75b2d3b6e8b828349b16decc7" style="width: 100.0%; height: 100.0%;">Camino Rojo Mine Location: Zacatecas Company: Orla Mining Mining Method: Open-pit</div>`)[0];
+                popup_1240370db9ab9366e0ef562e3f674fbb.setContent(html_df81c9a75b2d3b6e8b828349b16decc7);
+            
+        
+
+        marker_ee9e8c8a5502d3fd04bfe6de86d17de9.bindPopup(popup_1240370db9ab9366e0ef562e3f674fbb)
+        ;
+
+        
+    
+    
+            var marker_a62705e2e3638194166dca1ce896c891 = L.marker(
+                [28.556, -107.852],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_62845b1a8f6fb4ff1040c40ace83c367 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "brown", "prefix": "fa"}
+            );
+            marker_a62705e2e3638194166dca1ce896c891.setIcon(icon_62845b1a8f6fb4ff1040c40ace83c367);
+        
+    
+        var popup_53832e6719b7418927b06f48d593ce1a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34042061c48d14adc7003d99f37bf48f = $(`<div id="html_34042061c48d14adc7003d99f37bf48f" style="width: 100.0%; height: 100.0%;">Los Gatos Mine Location: Chihuahua Company: Sunset Gold Mining Method: Underground</div>`)[0];
+                popup_53832e6719b7418927b06f48d593ce1a.setContent(html_34042061c48d14adc7003d99f37bf48f);
+            
+        
+
+        marker_a62705e2e3638194166dca1ce896c891.bindPopup(popup_53832e6719b7418927b06f48d593ce1a)
+        ;
+
+        
+    
+    
+            var marker_b156a1aa4297324102ea4ff3ea8b723c = L.marker(
+                [22.307, -101.523],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_bb7a8077c687f7b99296baed2afebe75 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "brown", "prefix": "fa"}
+            );
+            marker_b156a1aa4297324102ea4ff3ea8b723c.setIcon(icon_bb7a8077c687f7b99296baed2afebe75);
+        
+    
+        var popup_c78b652ba4cc6da4a9ace79c3e15120f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a927941045ebaccd5ed775e5128609d = $(`<div id="html_9a927941045ebaccd5ed775e5128609d" style="width: 100.0%; height: 100.0%;">Pinos Mine Location: Zacatecas Company: Alamos Gold Mining Method: Underground</div>`)[0];
+                popup_c78b652ba4cc6da4a9ace79c3e15120f.setContent(html_9a927941045ebaccd5ed775e5128609d);
+            
+        
+
+        marker_b156a1aa4297324102ea4ff3ea8b723c.bindPopup(popup_c78b652ba4cc6da4a9ace79c3e15120f)
+        ;
+
+        
+    
+    
+            var marker_0e75844cadb7418ad56bbc140137c5ae = L.marker(
+                [25.023, -104.255],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_993eb3ebd430593c983430a00c209f97 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "brown", "prefix": "fa"}
+            );
+            marker_0e75844cadb7418ad56bbc140137c5ae.setIcon(icon_993eb3ebd430593c983430a00c209f97);
+        
+    
+        var popup_f92b3887be1b0fb1de56da322973b8f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c34ea37a89568ded581acc18af4874e6 = $(`<div id="html_c34ea37a89568ded581acc18af4874e6" style="width: 100.0%; height: 100.0%;">Tahuehueto Mine Location: Durango Company: Telson Mining Mining Method: Underground</div>`)[0];
+                popup_f92b3887be1b0fb1de56da322973b8f2.setContent(html_c34ea37a89568ded581acc18af4874e6);
+            
+        
+
+        marker_0e75844cadb7418ad56bbc140137c5ae.bindPopup(popup_f92b3887be1b0fb1de56da322973b8f2)
+        ;
+
+        
+    
+    
+            var marker_29682ff5f9b9bd3f73166b671fb2282e = L.marker(
+                [30.775, -111.708],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_fec8420e50c55b44f804ef4f7b951cba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_29682ff5f9b9bd3f73166b671fb2282e.setIcon(icon_fec8420e50c55b44f804ef4f7b951cba);
+        
+    
+        var popup_69d98833eb5bf38d86bd73edd3386fed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb5bbbe3df9a8662a6b0fa3c4b6a07f8 = $(`<div id="html_bb5bbbe3df9a8662a6b0fa3c4b6a07f8" style="width: 100.0%; height: 100.0%;">Santana Mine Location: Sonora Company: Minera Alamos Mining Method: Open-pit</div>`)[0];
+                popup_69d98833eb5bf38d86bd73edd3386fed.setContent(html_bb5bbbe3df9a8662a6b0fa3c4b6a07f8);
+            
+        
+
+        marker_29682ff5f9b9bd3f73166b671fb2282e.bindPopup(popup_69d98833eb5bf38d86bd73edd3386fed)
+        ;
+
+        
+    
+    
+            var marker_f99af7ab8023726a2149b6d316dd5ffe = L.marker(
+                [22.041, -101.638],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_8ac9393d5d2bbb85ff014d477280b350 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "brown", "prefix": "fa"}
+            );
+            marker_f99af7ab8023726a2149b6d316dd5ffe.setIcon(icon_8ac9393d5d2bbb85ff014d477280b350);
+        
+    
+        var popup_4c46068bd013cc3366067e0e3bdda1c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ef446ccb1e79a93cb84fd0a1c301d4e = $(`<div id="html_1ef446ccb1e79a93cb84fd0a1c301d4e" style="width: 100.0%; height: 100.0%;">La Luz Mine Location: San Luis Potosí Company: Coeur Mining Mining Method: Underground</div>`)[0];
+                popup_4c46068bd013cc3366067e0e3bdda1c9.setContent(html_1ef446ccb1e79a93cb84fd0a1c301d4e);
+            
+        
+
+        marker_f99af7ab8023726a2149b6d316dd5ffe.bindPopup(popup_4c46068bd013cc3366067e0e3bdda1c9)
+        ;
+
+        
+    
+    
+            var marker_4d5fff3b0a39fbc0e00de0bf3e3de17a = L.marker(
+                [19.276, -98.517],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_993489a1462cf2e922e41953834f2eea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_4d5fff3b0a39fbc0e00de0bf3e3de17a.setIcon(icon_993489a1462cf2e922e41953834f2eea);
+        
+    
+        var popup_94477643d1c8666beff3d887d42a3f1a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f3ba77d945ecd5a7968747421950c71 = $(`<div id="html_6f3ba77d945ecd5a7968747421950c71" style="width: 100.0%; height: 100.0%;">Ixtaca Mine Location: Puebla Company: Almaden Minerals Mining Method: Open-pit</div>`)[0];
+                popup_94477643d1c8666beff3d887d42a3f1a.setContent(html_6f3ba77d945ecd5a7968747421950c71);
+            
+        
+
+        marker_4d5fff3b0a39fbc0e00de0bf3e3de17a.bindPopup(popup_94477643d1c8666beff3d887d42a3f1a)
+        ;
+
+        
+    
+    
+            var marker_15676b6a0ddb57b4c91a161e503d476c = L.marker(
+                [16.502, -96.226],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_5f4c573427ed7231e13c475807d15621 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "brown", "prefix": "fa"}
+            );
+            marker_15676b6a0ddb57b4c91a161e503d476c.setIcon(icon_5f4c573427ed7231e13c475807d15621);
+        
+    
+        var popup_4d544f950c54fc7964bb0616173291c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_768734edf13b734e6e5021e0c5bb70b2 = $(`<div id="html_768734edf13b734e6e5021e0c5bb70b2" style="width: 100.0%; height: 100.0%;">San Jose Mine Location: Oaxaca Company: Fortuna Silver Mines Mining Method: Underground</div>`)[0];
+                popup_4d544f950c54fc7964bb0616173291c7.setContent(html_768734edf13b734e6e5021e0c5bb70b2);
+            
+        
+
+        marker_15676b6a0ddb57b4c91a161e503d476c.bindPopup(popup_4d544f950c54fc7964bb0616173291c7)
+        ;
+
+        
+    
+    
+            var marker_9d9deb1e8f4e0d9d2951864df4173739 = L.marker(
+                [24.724, -104.798],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_6470b27d4d518cdff1c2b7b125429581 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "brown", "prefix": "fa"}
+            );
+            marker_9d9deb1e8f4e0d9d2951864df4173739.setIcon(icon_6470b27d4d518cdff1c2b7b125429581);
+        
+    
+        var popup_1957550f38d87604c4ed44bdc0ec2036 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be2c3f9b1ef0cd93fbe79f009c21b55e = $(`<div id="html_be2c3f9b1ef0cd93fbe79f009c21b55e" style="width: 100.0%; height: 100.0%;">Tayoltita Mine Location: Durango Company: Fresnillo plc Mining Method: Underground</div>`)[0];
+                popup_1957550f38d87604c4ed44bdc0ec2036.setContent(html_be2c3f9b1ef0cd93fbe79f009c21b55e);
+            
+        
+
+        marker_9d9deb1e8f4e0d9d2951864df4173739.bindPopup(popup_1957550f38d87604c4ed44bdc0ec2036)
+        ;
+
+        
+    
+    
+            var marker_34da7397a5d88ffb9673748a56ead447 = L.marker(
+                [30.484, -115.93],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_92666e2092e1779ca2d49ab0c830438a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_34da7397a5d88ffb9673748a56ead447.setIcon(icon_92666e2092e1779ca2d49ab0c830438a);
+        
+    
+        var popup_d7e9d031ea76dddf7d6b890d57a88ce1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_efc993afe8a060cf66cdde486b9c29b6 = $(`<div id="html_efc993afe8a060cf66cdde486b9c29b6" style="width: 100.0%; height: 100.0%;">San Felipe Mine Location: Baja California Company: Timberline Resources Mining Method: Open-pit</div>`)[0];
+                popup_d7e9d031ea76dddf7d6b890d57a88ce1.setContent(html_efc993afe8a060cf66cdde486b9c29b6);
+            
+        
+
+        marker_34da7397a5d88ffb9673748a56ead447.bindPopup(popup_d7e9d031ea76dddf7d6b890d57a88ce1)
+        ;
+
+        
+    
+    
+            var marker_fa18dd7550358fa5f7d8815a84e0412b = L.marker(
+                [24.53, -101.648],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_5a10d93c6277e26c511e156abd25a356 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_fa18dd7550358fa5f7d8815a84e0412b.setIcon(icon_5a10d93c6277e26c511e156abd25a356);
+        
+    
+        var popup_ed8e56bce8acc635f029d43c1378b6cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af45bc5ff8fe8c04b1f8bbda8c9a32c0 = $(`<div id="html_af45bc5ff8fe8c04b1f8bbda8c9a32c0" style="width: 100.0%; height: 100.0%;">Mazapil Mine Location: Zacatecas Company: Frisco Mining Method: Open-pit</div>`)[0];
+                popup_ed8e56bce8acc635f029d43c1378b6cf.setContent(html_af45bc5ff8fe8c04b1f8bbda8c9a32c0);
+            
+        
+
+        marker_fa18dd7550358fa5f7d8815a84e0412b.bindPopup(popup_ed8e56bce8acc635f029d43c1378b6cf)
+        ;
+
+        
+    
+    
+            var marker_9641dd484413299238766a890bc84999 = L.marker(
+                [22.196, -100.984],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_9543bac8d1d673ffd01ac432d80f9851 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_9641dd484413299238766a890bc84999.setIcon(icon_9543bac8d1d673ffd01ac432d80f9851);
+        
+    
+        var popup_5aec0245c47db8c6b9986425cc15a391 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2c892d2b4278b7f3b1588ec56735b9d = $(`<div id="html_d2c892d2b4278b7f3b1588ec56735b9d" style="width: 100.0%; height: 100.0%;">Cerro San Pedro Mine Location: San Luis Potosí Company: New Gold Mining Method: Open-pit</div>`)[0];
+                popup_5aec0245c47db8c6b9986425cc15a391.setContent(html_d2c892d2b4278b7f3b1588ec56735b9d);
+            
+        
+
+        marker_9641dd484413299238766a890bc84999.bindPopup(popup_5aec0245c47db8c6b9986425cc15a391)
+        ;
+
+        
+    
+    
+            var marker_0c0c12ee8b32fa7f6c80f69ee93b6dc6 = L.marker(
+                [20.752, -99.9],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_d67101ce372d6782201ea6d52007700f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "brown", "prefix": "fa"}
+            );
+            marker_0c0c12ee8b32fa7f6c80f69ee93b6dc6.setIcon(icon_d67101ce372d6782201ea6d52007700f);
+        
+    
+        var popup_fc6f84e6d4e261ec8fbc195d49063792 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f86c20ad19fc6e71803fdd8b0281a968 = $(`<div id="html_f86c20ad19fc6e71803fdd8b0281a968" style="width: 100.0%; height: 100.0%;">La Negra Mine Location: Querétaro Company: Arian Silver Mining Method: Underground</div>`)[0];
+                popup_fc6f84e6d4e261ec8fbc195d49063792.setContent(html_f86c20ad19fc6e71803fdd8b0281a968);
+            
+        
+
+        marker_0c0c12ee8b32fa7f6c80f69ee93b6dc6.bindPopup(popup_fc6f84e6d4e261ec8fbc195d49063792)
+        ;
+
+        
+    
+    
+            var marker_277b3722def1fff83a4ad6ee1aed21ff = L.marker(
+                [27.841, -101.53],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_86122609aeae91c51766d013ff106ad1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "brown", "prefix": "fa"}
+            );
+            marker_277b3722def1fff83a4ad6ee1aed21ff.setIcon(icon_86122609aeae91c51766d013ff106ad1);
+        
+    
+        var popup_50c58f775c9e31dff55d4e6a09492661 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f071f22910bdd07981000c58184496c = $(`<div id="html_3f071f22910bdd07981000c58184496c" style="width: 100.0%; height: 100.0%;">La Luz-Sierra Mojada Mine Location: Coahuila Company: Sierra Metals Mining Method: Underground</div>`)[0];
+                popup_50c58f775c9e31dff55d4e6a09492661.setContent(html_3f071f22910bdd07981000c58184496c);
+            
+        
+
+        marker_277b3722def1fff83a4ad6ee1aed21ff.bindPopup(popup_50c58f775c9e31dff55d4e6a09492661)
+        ;
+
+        
+    
+    
+            var marker_1cf678a8d1247749405d91052082c2b8 = L.marker(
+                [29.495, -105.899],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_56bc4abd88164e524909a6030263318c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_1cf678a8d1247749405d91052082c2b8.setIcon(icon_56bc4abd88164e524909a6030263318c);
+        
+    
+        var popup_f3ab8038acbed1c75c4e60a119fdd7f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fdf036fe8143c3fa60ca58a437fb08f0 = $(`<div id="html_fdf036fe8143c3fa60ca58a437fb08f0" style="width: 100.0%; height: 100.0%;">Los Juarez Mine Location: Chihuahua Company: U.S. Antimony Mining Method: Open-pit</div>`)[0];
+                popup_f3ab8038acbed1c75c4e60a119fdd7f8.setContent(html_fdf036fe8143c3fa60ca58a437fb08f0);
+            
+        
+
+        marker_1cf678a8d1247749405d91052082c2b8.bindPopup(popup_f3ab8038acbed1c75c4e60a119fdd7f8)
+        ;
+
+        
+    
+    
+            var marker_f9e692cdb250c504792254d8659ee647 = L.marker(
+                [25.383, -107.483],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_047ef92829010b9d255bcd169840a891 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_f9e692cdb250c504792254d8659ee647.setIcon(icon_047ef92829010b9d255bcd169840a891);
+        
+    
+        var popup_d5f41798adb97c86e2d4c32611778564 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af9877c986cf49329732ea65b15a2b2e = $(`<div id="html_af9877c986cf49329732ea65b15a2b2e" style="width: 100.0%; height: 100.0%;">Magistral Mine Location: Sinaloa Company: Canarc Resource Mining Method: Open-pit</div>`)[0];
+                popup_d5f41798adb97c86e2d4c32611778564.setContent(html_af9877c986cf49329732ea65b15a2b2e);
+            
+        
+
+        marker_f9e692cdb250c504792254d8659ee647.bindPopup(popup_d5f41798adb97c86e2d4c32611778564)
+        ;
+
+        
+    
+    
+            var marker_d8ba46d83e2d0859a1ea770d65fa4539 = L.marker(
+                [24.011, -103.945],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_353f8b3d3a4cec5b348cfa46ca74402d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "brown", "prefix": "fa"}
+            );
+            marker_d8ba46d83e2d0859a1ea770d65fa4539.setIcon(icon_353f8b3d3a4cec5b348cfa46ca74402d);
+        
+    
+        var popup_c1f73492ac9b5493ec2fc6a6ba19d415 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_025eaa6ee9c9cea7f547c854623c0e70 = $(`<div id="html_025eaa6ee9c9cea7f547c854623c0e70" style="width: 100.0%; height: 100.0%;">La Platosa Mine Location: Durango Company: Excellon Resources Mining Method: Underground</div>`)[0];
+                popup_c1f73492ac9b5493ec2fc6a6ba19d415.setContent(html_025eaa6ee9c9cea7f547c854623c0e70);
+            
+        
+
+        marker_d8ba46d83e2d0859a1ea770d65fa4539.bindPopup(popup_c1f73492ac9b5493ec2fc6a6ba19d415)
+        ;
+
+        
+    
+    
+            var marker_9ea4541f79f82f4ff2ff0616a143f153 = L.marker(
+                [28.267, -111.128],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_1a21ca6469ee9c08f1bbdcdddcc4911c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_9ea4541f79f82f4ff2ff0616a143f153.setIcon(icon_1a21ca6469ee9c08f1bbdcdddcc4911c);
+        
+    
+        var popup_f4fd56f4204f2bd5f52f3ac202d4c34d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f3241ea64bfb4073b7fca76738804e9 = $(`<div id="html_5f3241ea64bfb4073b7fca76738804e9" style="width: 100.0%; height: 100.0%;">La Choya Mine Location: Sonora Company: Alamos Gold Mining Method: Open-pit</div>`)[0];
+                popup_f4fd56f4204f2bd5f52f3ac202d4c34d.setContent(html_5f3241ea64bfb4073b7fca76738804e9);
+            
+        
+
+        marker_9ea4541f79f82f4ff2ff0616a143f153.bindPopup(popup_f4fd56f4204f2bd5f52f3ac202d4c34d)
+        ;
+
+        
+    
+    
+            var marker_94ff580c2a4fe39694e28fb41a2e5602 = L.marker(
+                [24.335, -106.2],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_c4d7a92716dc4bd483d628c70febcda0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_94ff580c2a4fe39694e28fb41a2e5602.setIcon(icon_c4d7a92716dc4bd483d628c70febcda0);
+        
+    
+        var popup_89456edede32860d2c322c8e192bf0c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a7c2aa0ec070ca4d6172e2e380bc70f = $(`<div id="html_4a7c2aa0ec070ca4d6172e2e380bc70f" style="width: 100.0%; height: 100.0%;">La Trinidad Mine Location: Sinaloa Company: Marlin Gold Mining Mining Method: Open-pit</div>`)[0];
+                popup_89456edede32860d2c322c8e192bf0c4.setContent(html_4a7c2aa0ec070ca4d6172e2e380bc70f);
+            
+        
+
+        marker_94ff580c2a4fe39694e28fb41a2e5602.bindPopup(popup_89456edede32860d2c322c8e192bf0c4)
+        ;
+
+        
+    
+    
+            var marker_f69a623e19775588b731763c86f408af = L.marker(
+                [24.52, -104.926],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_d5835323410ccc322b8a4c54e62331d1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_f69a623e19775588b731763c86f408af.setIcon(icon_d5835323410ccc322b8a4c54e62331d1);
+        
+    
+        var popup_5fa2dfa0929dd3b7c6a4e33fc5b9a3b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f76935ced10bd5baf6b81863c253ab23 = $(`<div id="html_f76935ced10bd5baf6b81863c253ab23" style="width: 100.0%; height: 100.0%;">El Castillo Mine Location: Durango Company: Argonaut Gold Mining Method: Open-pit</div>`)[0];
+                popup_5fa2dfa0929dd3b7c6a4e33fc5b9a3b7.setContent(html_f76935ced10bd5baf6b81863c253ab23);
+            
+        
+
+        marker_f69a623e19775588b731763c86f408af.bindPopup(popup_5fa2dfa0929dd3b7c6a4e33fc5b9a3b7)
+        ;
+
+        
+    
+    
+            var marker_d373c9e2b69fc9b7836e7d2a07aeffdb = L.marker(
+                [30.789, -111.472],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_0813894667ccc193290308a022cddb47 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d373c9e2b69fc9b7836e7d2a07aeffdb.setIcon(icon_0813894667ccc193290308a022cddb47);
+        
+    
+        var popup_1bf274ff5e13eac5e03b7b8c17013d20 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_652974375b866e4d1ef885e0249b940e = $(`<div id="html_652974375b866e4d1ef885e0249b940e" style="width: 100.0%; height: 100.0%;">Santa Gertrudis Mine Location: Sonora Company: GoGold Resources Mining Method: Open-pit</div>`)[0];
+                popup_1bf274ff5e13eac5e03b7b8c17013d20.setContent(html_652974375b866e4d1ef885e0249b940e);
+            
+        
+
+        marker_d373c9e2b69fc9b7836e7d2a07aeffdb.bindPopup(popup_1bf274ff5e13eac5e03b7b8c17013d20)
+        ;
+
+        
+    
+    
+            var marker_d0a7c417b06e76a323ebbe0c2ad07374 = L.marker(
+                [22.66, -102.615],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_dc62fcc7a4ef17e3012dc099b4c367b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "brown", "prefix": "fa"}
+            );
+            marker_d0a7c417b06e76a323ebbe0c2ad07374.setIcon(icon_dc62fcc7a4ef17e3012dc099b4c367b6);
+        
+    
+        var popup_0dc0a9ab3322df580adf6de6729091e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f41d39150bdd32a6c41900cdd1b82d10 = $(`<div id="html_f41d39150bdd32a6c41900cdd1b82d10" style="width: 100.0%; height: 100.0%;">El Compas Mine Location: Zacatecas Company: Grupo México Mining Method: Underground</div>`)[0];
+                popup_0dc0a9ab3322df580adf6de6729091e5.setContent(html_f41d39150bdd32a6c41900cdd1b82d10);
+            
+        
+
+        marker_d0a7c417b06e76a323ebbe0c2ad07374.bindPopup(popup_0dc0a9ab3322df580adf6de6729091e5)
+        ;
+
+        
+    
+    
+            var marker_95031d2a7da409d14444267036fef9c3 = L.marker(
+                [25.618, -108.757],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_4eb320066368c3e2175ee2d8b975724d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_95031d2a7da409d14444267036fef9c3.setIcon(icon_4eb320066368c3e2175ee2d8b975724d);
+        
+    
+        var popup_ebdebc2b9a4a1fdcbf715b3b376be0e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd1cc680d1d43e476d380e39f8a2bc37 = $(`<div id="html_dd1cc680d1d43e476d380e39f8a2bc37" style="width: 100.0%; height: 100.0%;">El Gallo Mine Location: Sinaloa Company: McEwen Mining Mining Method: Open-pit</div>`)[0];
+                popup_ebdebc2b9a4a1fdcbf715b3b376be0e9.setContent(html_dd1cc680d1d43e476d380e39f8a2bc37);
+            
+        
+
+        marker_95031d2a7da409d14444267036fef9c3.bindPopup(popup_ebdebc2b9a4a1fdcbf715b3b376be0e9)
+        ;
+
+        
+    
+    
+            var marker_29759363875ffce0061189ba8dd860b8 = L.marker(
+                [-47.706, -69.573],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_1778221ed2c8fee2cd31bdd7594fb816 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "brown", "prefix": "fa"}
+            );
+            marker_29759363875ffce0061189ba8dd860b8.setIcon(icon_1778221ed2c8fee2cd31bdd7594fb816);
+        
+    
+        var popup_d2e424ec80fdfbb9ade2101a1bb9973c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9fccecc087a72ef8910527ac66342cb = $(`<div id="html_d9fccecc087a72ef8910527ac66342cb" style="width: 100.0%; height: 100.0%;">Cerro Moro Mine Location: Santa Cruz Company: Yamana Gold Mining Method: Underground</div>`)[0];
+                popup_d2e424ec80fdfbb9ade2101a1bb9973c.setContent(html_d9fccecc087a72ef8910527ac66342cb);
+            
+        
+
+        marker_29759363875ffce0061189ba8dd860b8.bindPopup(popup_d2e424ec80fdfbb9ade2101a1bb9973c)
+        ;
+
+        
+    
+    
+            var marker_9ed68619286614fc8b635552afa52fd1 = L.marker(
+                [21.122, -100.925],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_86e1fb28beefc8c7fc6ec97e8df993cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "brown", "prefix": "fa"}
+            );
+            marker_9ed68619286614fc8b635552afa52fd1.setIcon(icon_86e1fb28beefc8c7fc6ec97e8df993cf);
+        
+    
+        var popup_7a9d892eb87487b2975f5efe0e47cc4e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6c28f3d3f81bf540fddb4d5085e42d3a = $(`<div id="html_6c28f3d3f81bf540fddb4d5085e42d3a" style="width: 100.0%; height: 100.0%;">Bolanitos Mine Location: Guanajuato Company: Endeavour Silver Mining Method: Underground</div>`)[0];
+                popup_7a9d892eb87487b2975f5efe0e47cc4e.setContent(html_6c28f3d3f81bf540fddb4d5085e42d3a);
+            
+        
+
+        marker_9ed68619286614fc8b635552afa52fd1.bindPopup(popup_7a9d892eb87487b2975f5efe0e47cc4e)
+        ;
+
+        
+    
+    
+            var marker_1edcccf390e556a6ceacac8f13888735 = L.marker(
+                [20.672, -105.216],
+                {}
+            ).addTo(map_fc8008665e1fe1a664c8c20d3bad7fa7);
+        
+    
+            var icon_fd9d3a6dc4d3baecfe4b977f6155d2ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "brown", "prefix": "fa"}
+            );
+            marker_1edcccf390e556a6ceacac8f13888735.setIcon(icon_fd9d3a6dc4d3baecfe4b977f6155d2ff);
+        
+    
+        var popup_0ce392399a3a2694853769c6020d9267 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_20e39556694ea09eb5c915a20a01ef4e = $(`<div id="html_20e39556694ea09eb5c915a20a01ef4e" style="width: 100.0%; height: 100.0%;">Terronera Mine Location: Jalisco Company: Endeavour Silver Mining Method: Underground</div>`)[0];
+                popup_0ce392399a3a2694853769c6020d9267.setContent(html_20e39556694ea09eb5c915a20a01ef4e);
+            
+        
+
+        marker_1edcccf390e556a6ceacac8f13888735.bindPopup(popup_0ce392399a3a2694853769c6020d9267)
+        ;
+
+        
+    
+</script>
+
+<iframe title="Report Section" width="100%" height="100%" src="https://app.powerbi.com/view?r=eyJrIjoiM2RjMDMyY2UtMTBlMy00ODY5LWE3NWYtNjI5ZjNlZGE4MmFlIiwidCI6IjIwMTA1NzdjLTQzNGQtNDFkMy1hNzQ3LTA1YTIyNmU4ZWVhYSJ9" frameborder="0" allowfullscreen="true"></iframe>
+
+
+</html>
