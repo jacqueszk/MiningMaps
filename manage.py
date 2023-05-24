@@ -832,6 +832,7 @@ mines = [
   }
 ]
 
+
 # Create a map centered on Mexico
 map_mines = folium.Map(location=[23.634, -102.552], zoom_start=5)
 
@@ -933,3 +934,5 @@ map_mines.get_root().html.add_child(folium.Element(dropdown_script))
 
 # Save the map to an HTML file
 map_mines.save("index.html")
+
+
