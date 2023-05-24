@@ -189,7 +189,7 @@ mines = [
         "name": "La Guitarra Mine",
         "location": "Mexico",
         "coordinates": [19.899, -100.030],
-        "company": "Endeavour Silver",
+        "company": "Sierra Madre Gold & Silver",
         "mining_method": "Underground"
     },
     {
@@ -382,7 +382,63 @@ mines = [
       "coordinates": [20.672, -105.216],
       "company": "Endeavour Silver",
       "mining_method": "Underground"
-    }
+    },
+      {
+    "name": "Naica Mine",
+    "location": "Chihuahua",
+    "coordinates": [27.870, -105.495],
+    "company": "Industrias Peñoles",
+    "mining_method": "Underground"
+  },
+  {
+    "name": "El Cubo Mine",
+    "location": "Guanajuato",
+    "coordinates": [21.014, -101.250],
+    "company": "Endeavour Silver Corp",
+    "mining_method": "Underground"
+  },
+  {
+    "name": "Mina Proaño",
+    "location": "Hidalgo",
+    "coordinates": [20.174, -99.109],
+    "company": "Grupo México",
+    "mining_method": "Underground"
+  },
+  {
+    "name": "Milpillas Mine",
+    "location": "Sonora",
+    "coordinates": [30.938, -110.571],
+    "company": "Industrias Peñoles",
+    "mining_method": "Underground"
+  },
+  {
+"name": "Herradura Mine",
+"location": "Sonora",
+"coordinates": [27.426, -110.015],
+"company": "Fresnillo plc",
+"mining_method": "Open-pit"
+},
+{
+"name": "Noche Buena Mine",
+"location": "Sonora",
+"coordinates": [29.227, -110.080],
+"company": "Fresnillo plc",
+"mining_method": "Open-pit"
+},
+{
+"name": "San Julián Mine",
+"location": "Chihuahua",
+"coordinates": [26.570, -105.460],
+"company": "Fresnillo plc",
+"mining_method": "Open-pit"
+},
+{
+"name": "Juanicipio Mine",
+"location": "Zacatecas",
+"coordinates": [22.745, -102.569],
+"company": "Fresnillo plc",
+"mining_method": "Underground"
+}
 ]
 
 
