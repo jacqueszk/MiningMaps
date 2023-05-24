@@ -1,4 +1,5 @@
 import folium
+from jinja2 import Template
 
 mines = [
     {
@@ -342,13 +343,7 @@ mines = [
         "company": "McEwen Mining",
         "mining_method": "Open-pit"
     },
-    {
-        "name": "Cerro Moro Mine",
-        "location": "Santa Cruz",
-        "coordinates": [-47.706, -69.573],
-        "company": "Yamana Gold",
-        "mining_method": "Underground"
-    },
+
     {
       "name": "Bolanitos Mine",
       "location": "Guanajuato",
@@ -837,9 +832,6 @@ mines = [
   }
 ]
 
-  
-
-
 # Create a map centered on Mexico
 map_mines = folium.Map(location=[23.634, -102.552], zoom_start=5)
 
@@ -850,10 +842,12 @@ color_scheme = {
     "Exploration": "green",
     "Open-pit, Underground": "orange",
     "": "purple"
- 
 }
 
-# Add markers for each mine
+# Create a feature group for each company
+company_groups = {}
+
+# Add markers for each mine to the corresponding company group
 for mine in mines:
     name = mine["name"]
     location = mine["location"]
@@ -864,13 +858,78 @@ for mine in mines:
     # Determine the marker color based on the mining method
     color = color_scheme.get(mining_method, "gray")
 
-    # Create a marker and add it to the map
-    marker = folium.Marker(location=coordinates, popup=f"{name}<br>{location}<br>{company}<br>{mining_method}", 
-                           icon=folium.Icon(color=color))
-    marker.add_to(map_mines)
+    # Create a marker
+    marker = folium.Marker(
+        location=coordinates,
+        popup=f"{name}<br>{location}<br>{company}<br>{mining_method}",
+        icon=folium.Icon(color=color),
+        data_company=company  # Add a data attribute to the marker for filtering
+    )
 
+    # Create a feature group for the company if it doesn't exist
+    if company not in company_groups:
+        company_groups[company] = folium.FeatureGroup(name=company)
+
+    # Add the marker to the corresponding company group
+    marker.add_to(company_groups[company])
+
+# Add the company groups to the map
+for company_group in company_groups.values():
+    company_group.add_to(map_mines)
+
+# Create a dropdown filter
+dropdown_template = """
+<label for="company-filter">Company:</label>
+<select id="company-filter">
+  <option value="all">All Companies</option>
+  {% for company in companies %}
+  <option value="{{ company }}">{{ company }}</option>
+  {% endfor %}
+</select>
+"""
+
+# Get the distinct list of companies
+companies = list(company_groups.keys())
+
+# Add the dropdown filter to the map
+dropdown_html = Template(dropdown_template).render(companies=companies)
+dropdown_script = """
+<script>
+    var dropdown = document.getElementById('company-filter');
+    var markers = [];
+
+    // Function to show or hide markers based on selected company
+    function updateMarkers() {
+        var selectedCompany = dropdown.value;
+
+        // Show or hide markers based on the selected company
+        markers.forEach(function(marker) {
+            if (selectedCompany === 'all' || marker.options.data_company === selectedCompany) {
+                marker.setOpacity(1);
+            } else {
+                marker.setOpacity(0);
+            }
+        });
+    }
+
+    dropdown.addEventListener('change', updateMarkers);
+
+    // Add markers to the map and store in the markers array
+    Object.values(companyGroups).forEach(function(company_group) {
+        company_group.getLayers().forEach(function(layer) {
+            markers.push(layer);
+            layer.addTo(map_mines);
+        });
+    });
+
+    // Initial marker visibility based on the selected company
+    updateMarkers();
+
+</script>
+"""
+
+map_mines.get_root().html.add_child(folium.Element(dropdown_html))
+map_mines.get_root().html.add_child(folium.Element(dropdown_script))
 
 # Save the map to an HTML file
 map_mines.save("index.html")
-
-
