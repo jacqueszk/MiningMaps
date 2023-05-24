@@ -128,20 +128,7 @@ mines = [
         "company": "Southern Copper",
         "mining_method": "Underground"
     },
-    {
-        "name": "San Julian Mine",
-        "location": "Chihuahua",
-        "coordinates": [26.653, -105.652],
-        "company": "Fresnillo plc",
-        "mining_method": "Open-pit"
-    },
-    {
-        "name": "La Platosa Mine",
-        "location": "Durango",
-        "coordinates": [25.085, -103.791],
-        "company": "Plata Latina Minerals",
-        "mining_method": "Underground"
-    },
+
     {
         "name": "La Caridad Mine",
         "location": "Sonora",
@@ -311,13 +298,7 @@ mines = [
         "company": "Canarc Resource",
         "mining_method": "Open-pit"
     },
-        {
-        "name": "La Platosa Mine",
-        "location": "Durango",
-        "coordinates": [24.011, -103.945],
-        "company": "Excellon Resources",
-        "mining_method": "Underground"
-    },
+
     {
         "name": "La Choya Mine",
         "location": "Sonora",
@@ -438,17 +419,439 @@ mines = [
 "coordinates": [22.745, -102.569],
 "company": "Fresnillo plc",
 "mining_method": "Underground"
-}
+},
+{
+"name": "Buenavista del Cobre Mine",
+"location": "Sonora",
+"coordinates": [25.894, -110.927],
+"company": "Grupo México",
+"mining_method": "Open-pit"
+},
+{
+"name": "Penasquito Mine",
+"location": "Zacatecas",
+"coordinates": [23.635, -103.879],
+"company": "Newmont Goldcorp",
+"mining_method": "Open-pit"
+},
+{
+"name": "El Coronel Mine",
+"location": "Zacatecas",
+"coordinates": [23.339, -102.803],
+"company": "Frisco",
+"mining_method": "Open-pit"
+},
+
+{
+"name": "Asientos Mine",
+"location": "Aguascalientes",
+"coordinates": [22.237, -102.079],
+"company": "Frisco",
+"mining_method": "Underground"
+},
+{
+"name": "Ocampo Mine",
+"location": "Chihuahua",
+"coordinates": [28.483, -107.133],
+"company": "Endeavour Silver Corp",
+"mining_method": "Underground"
+},
+
+{
+"name": "Concheno Mine",
+"location": "Guanajuato",
+"coordinates": [21.029, -101.268],
+"company": "Frisco",
+"mining_method": "Underground"
+},
+
+{
+"name": "San Francisco del Oro Mine",
+"location": "Chihuahua",
+"coordinates": [26.121, -105.379],
+"company": "Frisco",
+"mining_method": "Underground"
+},
+
+{
+"name": "Tayahua Mine",
+"location": "Zacatecas",
+"coordinates": [22.656, -101.759],
+"company": "Frisco",
+"mining_method": "Underground"
+},
+
+{
+"name": "El Coronel Mine",
+"location": "Zacatecas",
+"coordinates": [24.337, -101.463],
+"company": "Frisco",
+"mining_method": "Underground"
+},
+{
+"name": "Mina María",
+"location": "Sonora",
+"coordinates": [30.607, -110.957],
+"company": "Grupo México",
+"mining_method": "Underground"
+},
+
+{
+"name": "Mina Porvenir",
+"location": "Durango",
+"coordinates": [24.510, -104.635],
+"company": "Industrias Peñoles",
+"mining_method": "Underground"
+},
+{
+  "name": "Creston Mascota Deposit",
+  "location": "Chihuahua",
+  "coordinates": [28.970, -106.420],
+  "company": "Agnico Eagle Mines",
+  "mining_method": "Open-pit"
+},
+
+    {
+      "name": "Dolores Mine",
+      "location": "Chihuahua",
+      "coordinates": [26.622, -105.583],
+      "company": "Pan American Silver",
+      "mining_method": "Open-pit, Underground"
+    },
+    {
+      "name": "La Bolsa Mine",
+      "location": "Sonora",
+      "coordinates": [28.057, -109.477],
+      "company": "Pan American Silver",
+      "mining_method": "Open-pit"
+    },
+    {
+      "name": "Alamo Dorado Mine",
+      "location": "Sonora",
+      "coordinates": [28.465, -109.762],
+      "company": "Pan American Silver",
+      "mining_method": "Open-pit, Underground"
+    },
+    {
+      "name": "La Negra Mine",
+      "location": "Querétaro",
+      "coordinates": [20.768, -99.748],
+      "company": "Pan American Silver",
+      "mining_method": "Open-pit, Underground"
+    },
+    {
+      "name": "San Vicente Mine",
+      "location": "Zacatecas",
+      "coordinates": [22.663, -102.554],
+      "company": "Pan American Silver",
+      "mining_method": "Underground"
+    },
+    
+  {
+    "name": "Cozamin Mine",
+    "location": "Zacatecas",
+    "coordinates": [22.663, -102.554],
+    "company": "Capstone Copper",
+    "mining_method": "Open-pit"
+  },
+  {
+    "name": "San Martin Silver Mine",
+    "location": "Jalisco",
+    "coordinates": [20.686, -103.351],
+    "company": "First Majestic Silver",
+    "mining_method": "Underground"
+  },
+  {
+    "name": "Mercedes Mine",
+    "location": "Sonora",
+    "coordinates": [29.609, -110.945],
+    "company": "Equinox Gold",
+    "mining_method": "Open-pit"
+  },
+  {
+    "name": "El Limón-Guajes Mine",
+    "location": "Guerrero",
+    "coordinates": [17.669, -99.539],
+    "company": "Torex Gold Resources",
+    "mining_method": "Open-pit"
+  },
+  {
+    "name": "Las Chispas Project",
+    "location": "Sonora",
+    "coordinates": [27.676, -109.903],
+    "company": "SilverCrest Metals",
+    "mining_method": "Underground"
+  },
+  {
+    "name": "La Preciosa Project",
+    "location": "Durango",
+    "coordinates": [24.373, -104.750],
+    "company": "Coeur Mining",
+    "mining_method": "Open-pit"
+  },
+  {
+    "name": "Aranzazu Mine",
+    "location": "Zacatecas",
+    "coordinates": [22.752, -102.338],
+    "company": "Aura Minerals",
+    "mining_method": "Underground"
+  },
+  {
+    "name": "Los Ricos Project",
+    "location": "Jalisco",
+    "coordinates": [21.813, -104.502],
+    "company": "GoGold Resources",
+    "mining_method": "Open-pit"
+  },
+  {
+    "name": "San Agustin Mine",
+    "location": "Durango",
+    "coordinates": [24.758, -104.847],
+    "company": "Argonaut Gold",
+    "mining_method": "Open-pit"
+  },
+  {
+    "name": "Cordero Project",
+    "location": "Chihuahua",
+    "coordinates": [28.363, -105.815],
+    "company": "Discovery Silver",
+    "mining_method": "Open-pit"
+  },
+  {
+    "name": "Los Reyes Project",
+    "location": "Sinaloa",
+    "coordinates": [25.924, -108.021],
+    "company": "Prime Mining",
+    "mining_method": "Open-pit"
+  },
+  {
+    "name": "Santo Tomas Project",
+    "location": "Sonora",
+    "coordinates": [30.173, -111.211],
+    "company": "Oroco Resource",
+    "mining_method": "Open-pit"
+  },
+
+  {
+    "name": "Rosario Mine",
+    "location": "San Luis Potosi",
+    "coordinates": [22.235, -100.961],
+    "company": "Santacruz Silver",
+    "mining_method": ""
+  },
+  {
+    "name": "Zimapan Mine",
+    "location": "Hidalgo",
+    "coordinates": [20.770, -99.373],
+    "company": "Santacruz Silver",
+    "mining_method": ""
+  },
+  {
+    "name": "Veta Grande Mine",
+    "location": "Zacatecas",
+    "coordinates": [22.784, -102.609],
+    "company": "Santacruz Silver",
+    "mining_method": ""
+  },
+  {
+    "name": "Cosalá Operations",
+    "location": "Sinaloa",
+    "coordinates": [24.400, -106.679],
+    "company": "Americas Gold and Silver",
+    "mining_method": ""
+  },
+  {
+    "name": "Avino Mine",
+    "location": "Durango",
+    "coordinates": [24.170, -104.689],
+    "company": "Avino Silver & Gold Mines",
+    "mining_method": ""
+  },
+  {
+    "name": "Metates Project",
+    "location": "Durango",
+    "coordinates": [24.862, -107.947],
+    "company": "Chesapeake Gold",
+    "mining_method": ""
+  },
+  {
+    "name": "Tepic Project",
+    "location": "Nayarit",
+    "coordinates": [21.499, -104.881],
+    "company": "Sierra Madre Gold and Silver",
+    "mining_method": ""
+  },
+  {
+    "name": "El Tigre Project",
+    "location": "Sonora",
+    "coordinates": [28.532, -109.005],
+    "company": "Silver Tiger Metals",
+    "mining_method": ""
+  },
+  {
+    "name": "San Diego Project",
+    "location": "Durango",
+    "coordinates": [24.494, -104.961],
+    "company": "Golden Tag Resources",
+    "mining_method": ""
+  },
+  {
+    "name": "Cervantes Project",
+    "location": "Sonora",
+    "coordinates": [30.830, -109.877],
+    "company": "Aztec Minerals",
+    "mining_method": ""
+  },
+  {
+    "name": "Plomosas Silver Project",
+    "location": "Sinaloa",
+    "coordinates": [25.791, -107.025],
+    "company": "GR Silver Mining",
+    "mining_method": ""
+  },
+  {
+    "name": "Pilar Gold Project",
+    "location": "Sonora",
+    "coordinates": [29.449, -110.458],
+    "company": "Tocvan Ventures",
+    "mining_method": ""
+  },
+  {
+    "name": "El Pinguico Mine",
+    "location": "Guanajuato",
+    "coordinates": [21.167, -101.097],
+    "company": "Angel Wing Metals",
+    "mining_method": ""
+  },
+  {
+    "name": "Amalia Gold-Silver Project",
+    "location": "Chihuahua",
+    "coordinates": [27.008, -108.296],
+    "company": "Radius Gold",
+    "mining_method": ""
+  },
+  {
+    "name": "La Joya Silver Project",
+    "location": "Durango",
+    "coordinates": [25.738, -104.905],
+    "company": "Silver Dollar Resources",
+    "mining_method": ""
+  },
+  {
+    "name": "Miguel Auza Project",
+    "location": "Zacatecas",
+    "coordinates": [24.950, -103.270],
+    "company": "Excellon Resources",
+    "mining_method": ""
+  },
+  {
+    "name": "Peñoles Project",
+    "location": "Durango",
+    "coordinates": [23.809, -104.606],
+    "company": "Capitan Silver",
+    "mining_method": ""
+  },
+  {
+    "name": "Cerro Caliche Project",
+    "location": "Sonora",
+    "coordinates": [29.256, -110.351],
+    "company": "Sonoro Gold",
+    "mining_method": ""
+  },
+  {
+    "name": "Cecilia Gold Project",
+    "location": "Sonora",
+    "coordinates": [29.670, -110.639],
+    "company": "Riverside Resources",
+    "mining_method": ""
+  },
+  {
+    "name": "Sibila Project",
+    "location": "Sonora",
+    "coordinates": [30.664, -112.707],
+    "company": "Vortex Metals",
+    "mining_method": ""
+  },
+  {
+    "name": "Batopilas Project",
+    "location": "Chihuahua",
+    "coordinates": [26.424, -107.255],
+    "company": "Reyna Gold",
+    "mining_method": ""
+  },
+  {
+    "name": "Sierra Mojada Project",
+    "location": "Coahuila",
+    "coordinates": [27.524, -103.242],
+    "company": "Silver Bull Resources",
+    "mining_method": ""
+  },
+  {
+    "name": "El Dorado Project",
+    "location": "Nayarit",
+    "coordinates": [21.916, -105.239],
+    "company": "Xali Gold",
+    "mining_method": ""
+  },
+  {
+    "name": "Pilar Gold-Silver Project",
+    "location": "Sonora",
+    "coordinates": [29.432, -110.458],
+    "company": "Colibri Resource",
+    "mining_method": ""
+  },
+  {
+    "name": "La Trini Project",
+    "location": "Sinaloa",
+    "coordinates": [25.379, -107.884],
+    "company": "Kingsmen Resources",
+    "mining_method": ""
+  },
+  {
+    "name": "La Yesca Project",
+    "location": "Nayarit",
+    "coordinates": [21.024, -104.362],
+    "company": "Silver Valley Metals",
+    "mining_method": ""
+  },
+  {
+    "name": "Pino de Plata Project",
+    "location": "Chihuahua",
+    "coordinates": [27.695, -106.862],
+    "company": "Silver Spruce Resources",
+    "mining_method": ""
+  },
+  {
+    "name": "Momo Project",
+    "location": "Sonora",
+    "coordinates": [29.480, -110.446],
+    "company": "Monumental Minerals",
+    "mining_method": ""
+  },
+  {
+    "name": "Tarachi Project",
+    "location": "Sonora",
+    "coordinates": [27.884, -109.614],
+    "company": "Monumental Minerals",
+    "mining_method": ""
+  }
 ]
 
+  
 
 
 # Create a map centered on Mexico
-map_mines = folium.Map(location=[23.6345, -102.5528], zoom_start=5)
+map_mines = folium.Map(location=[23.634, -102.552], zoom_start=5)
 
-# Define colors for the markers
-open_pit_color = 'blue'
-underground_color = 'brown'
+# Define a color scheme for the mining methods
+color_scheme = {
+    "Open-pit": "blue",
+    "Underground": "red",
+    "Exploration": "green",
+    "Open-pit, Underground": "orange",
+    "": "purple"
+ 
+}
 
 # Add markers for each mine
 for mine in mines:
@@ -457,20 +860,15 @@ for mine in mines:
     coordinates = mine["coordinates"]
     company = mine["company"]
     mining_method = mine["mining_method"]
-    
-    tooltip = f"{name}\nLocation: {location}\nCompany: {company}\nMining Method: {mining_method}"
-    
-    # Set marker color based on mining method
-    if mining_method == "Open-pit":
-        marker_color = open_pit_color
-    else:
-        marker_color = underground_color
-    
-    folium.Marker(
-        location=coordinates,
-        popup=tooltip,
-        icon=folium.Icon(color=marker_color, icon="industry", prefix="fa")
-    ).add_to(map_mines)
+
+    # Determine the marker color based on the mining method
+    color = color_scheme.get(mining_method, "gray")
+
+    # Create a marker and add it to the map
+    marker = folium.Marker(location=coordinates, popup=f"{name}<br>{location}<br>{company}<br>{mining_method}", 
+                           icon=folium.Icon(color=color))
+    marker.add_to(map_mines)
+
 
 # Save the map to an HTML file
 map_mines.save("index.html")
