@@ -63,47 +63,5 @@ marker_group.add_child(folium.ClickForMarker(popup='Marker clicked!'))  # This l
 for company, group in company_groups.items():
     group.add_child(folium.ClickForMarker(popup='Marker clicked!'))  # This line adds click functionality to company-specific markers
 
-# Add legend to the map
-legend_html = '''
-     <div style="position: fixed; bottom: 50px; left: 50px; z-index: 1000; background-color: white; padding: 10px; border: 1px solid grey; font-size: 14px;">
-       <p><strong>Legend</strong></p>
-       <p><i class="fa fa-circle" style="color: blue;"></i> Open-pit</p>
-       <p><i class="fa fa-circle" style="color: red;"></i> Underground</p>
-       <p><i class="fa fa-circle" style="color: green;"></i> Exploration</p>
-       <p><i class="fa fa-circle" style="color: orange;"></i> Open-pit, Underground</p>
-       <p><i class="fa fa-circle" style="color: purple;"></i> Project</p>
-     </div>
-'''
-
-map_mines.get_root().html.add_child(folium.Element(legend_html))
-
-
 # Save the map as an HTML file
 map_mines.save("mines_map.html")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
