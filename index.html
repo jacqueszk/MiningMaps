@@ -24,6 +24,18 @@
             width: 100%;
             height: 100%;
         }
+        
+        .map-container {
+            display: flex;
+            justify-content: space-between;
+            height: 100%;
+        }
+        
+        .map {
+            width: calc(50% - 5px);
+            height: 100%;
+            margin-right: 10px;
+        }
     </style>
 </head>
 <body>
@@ -34,11 +46,16 @@
     </div>
     <div class="mines-map-section">
         <div class="mines-map-container">
-            <iframe src="mines_map.html" frameborder="0" width="100%" height="100%"></iframe>
+            <div class="map-container">
+                <iframe class="map" src="left_map.html" frameborder="0"></iframe>
+                <iframe class="map" src="right_map.html" frameborder="0"></iframe>
+            </div>
         </div>
     </div>
 </body>
 </html>
+
+
 
 
 
