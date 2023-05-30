@@ -199,13 +199,6 @@
         "mining_method": "Underground"
     },
     {
-        "name": "Pinos Mine",
-        "location": "Zacatecas",
-        "coordinates": [22.307, -101.523],
-        "company": "Alamos Gold",
-        "mining_method": "Underground"
-    },
-    {
         "name": "Tahuehueto Mine",
         "location": "Durango",
         "coordinates": [25.023, -104.255],
@@ -223,8 +216,8 @@
         "name": "La Luz Mine",
         "location": "San Luis Potosí",
         "coordinates": [22.041, -101.638],
-        "company": "Coeur Mining",
-        "mining_method": "Underground"
+        "company": "First Majestic Silver",
+        "mining_method": ""
     },
     {
         "name": "Ixtaca Mine",
@@ -238,13 +231,6 @@
         "location": "Oaxaca",
         "coordinates": [16.502, -96.226],
         "company": "Fortuna Silver Mines",
-        "mining_method": "Underground"
-    },
-    {
-        "name": "Tayoltita Mine",
-        "location": "Durango",
-        "coordinates": [24.724, -104.798],
-        "company": "Fresnillo plc",
         "mining_method": "Underground"
     },
     {
@@ -367,9 +353,31 @@
     "name": "El Cubo Mine",
     "location": "Guanajuato",
     "coordinates": [21.014, -101.250],
-    "company": "Endeavour Silver",
+    "company": "Guanajuato Silver",
     "mining_method": "Underground"
   },
+  {
+    "name": "San Ignacio Mine",
+    "location": "Zacatecas",
+    "coordinates": [22.774, -102.569],
+    "company": "Guanajuato Silver",
+    "mining_method": "Underground"
+  },
+  {
+    "name": "Valenciana Mine",
+    "location": "Guanajuato",
+    "coordinates": [21.016, -101.251],
+    "company": "Guanajuato Silver",
+    "mining_method": "Underground"
+  },
+  {
+    "name": "Topia Mine",
+    "location": "Durango",
+    "coordinates": [24.225, -105.364],
+    "company": "Guanajuato Silver",
+    "mining_method": "Underground"
+  },
+  
   {
     "name": "Mina Proaño",
     "location": "Hidalgo",
@@ -403,7 +411,7 @@
 "location": "Chihuahua",
 "coordinates": [26.570, -105.460],
 "company": "Fresnillo plc",
-"mining_method": "Open-pit"
+"mining_method": "Underground"
 },
 {
 "name": "Juanicipio Mine",
@@ -439,13 +447,6 @@
 "location": "Aguascalientes",
 "coordinates": [22.237, -102.079],
 "company": "Frisco",
-"mining_method": "Underground"
-},
-{
-"name": "Ocampo Mine",
-"location": "Chihuahua",
-"coordinates": [28.483, -107.133],
-"company": "Endeavour Silver",
 "mining_method": "Underground"
 },
 
@@ -528,7 +529,7 @@
       "name": "La Negra Mine",
       "location": "Querétaro",
       "coordinates": [20.768, -99.748],
-      "company": "Pan American Silver",
+      "company": "Excellon Resources",
       "mining_method": "Open-pit, Underground"
     },
     {
