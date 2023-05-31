@@ -28,13 +28,18 @@
         .map-container {
             display: flex;
             justify-content: space-between;
-            height: 100%;
+            height: 50%;
         }
         
         .map {
             width: calc(50% - 5px);
             height: 100%;
             margin-right: 10px;
+        }
+        
+        .bottom-map {
+            width: 100%;
+            height: 50%;
         }
     </style>
 </head>
@@ -49,7 +54,8 @@
             <div class="map-container">
                 <iframe class="map" src="left_map.html" frameborder="0"></iframe>
                 <iframe class="map" src="right_map.html" frameborder="0"></iframe>
-            </div>
+            </div> <br>
+            <iframe class="bottom-map" src="bottom_map.html" frameborder="0"></iframe>
         </div>
     </div>
 </body>

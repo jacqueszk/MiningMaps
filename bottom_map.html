@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d948e432cd3c4d0d8ed86186da02709c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d948e432cd3c4d0d8ed86186da02709c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d948e432cd3c4d0d8ed86186da02709c = L.map(
+                "map_d948e432cd3c4d0d8ed86186da02709c",
+                {
+                    center: [23.634, -102.552],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e8d1c60e55841a9d3bd2b0a9e42264a5 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d948e432cd3c4d0d8ed86186da02709c);
+        
+    
+            var feature_group_ad3de0958001e5772fac6452115bcb6b = L.featureGroup(
+                {}
+            ).addTo(map_d948e432cd3c4d0d8ed86186da02709c);
+        
+    
+            var marker_9cffe181aee93c13e2e28cf71b83804d = L.marker(
+                [24.336, -105.185],
+                {}
+            ).addTo(feature_group_ad3de0958001e5772fac6452115bcb6b);
+        
+    
+            var icon_a8823ee81de11b547f2dfd2ba007c95f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9cffe181aee93c13e2e28cf71b83804d.setIcon(icon_a8823ee81de11b547f2dfd2ba007c95f);
+        
+    
+        var popup_1f4568494455c49059a69a0e74e079e3 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_2c03bdfa26c9b337605bbca5ee10f4a2 = $(`<div id="html_2c03bdfa26c9b337605bbca5ee10f4a2" style="width: 100.0%; height: 100.0%;"><b>San Dimas Mine</b><br>Location: Durango<br>Company: First Majestic Silver<br>Mining Method: Underground</div>`)[0];
+                popup_1f4568494455c49059a69a0e74e079e3.setContent(html_2c03bdfa26c9b337605bbca5ee10f4a2);
+            
+        
+
+        marker_9cffe181aee93c13e2e28cf71b83804d.bindPopup(popup_1f4568494455c49059a69a0e74e079e3)
+        ;
+
+        
+    
+    
+            var marker_d3bf3ea3eb00202d7a2126cd4ae799f4 = L.marker(
+                [27.778, -101.587],
+                {}
+            ).addTo(feature_group_ad3de0958001e5772fac6452115bcb6b);
+        
+    
+            var icon_fe912f80c468efa00526caaf95a77145 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d3bf3ea3eb00202d7a2126cd4ae799f4.setIcon(icon_fe912f80c468efa00526caaf95a77145);
+        
+    
+        var popup_ba229d1d4b6ca0a249e11d0f6a7a5cc1 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_dde7ac1b47f27a5101d673cea0ff68b3 = $(`<div id="html_dde7ac1b47f27a5101d673cea0ff68b3" style="width: 100.0%; height: 100.0%;"><b>La Encantada Mine</b><br>Location: Coahuila<br>Company: First Majestic Silver<br>Mining Method: Underground</div>`)[0];
+                popup_ba229d1d4b6ca0a249e11d0f6a7a5cc1.setContent(html_dde7ac1b47f27a5101d673cea0ff68b3);
+            
+        
+
+        marker_d3bf3ea3eb00202d7a2126cd4ae799f4.bindPopup(popup_ba229d1d4b6ca0a249e11d0f6a7a5cc1)
+        ;
+
+        
+    
+    
+            var marker_029f11d3b65b27cc6171a1e09c6dfe51 = L.marker(
+                [24.341, -104.91],
+                {}
+            ).addTo(feature_group_ad3de0958001e5772fac6452115bcb6b);
+        
+    
+            var icon_3ec672a6cbf7f6f301f01a07ec17ba2a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_029f11d3b65b27cc6171a1e09c6dfe51.setIcon(icon_3ec672a6cbf7f6f301f01a07ec17ba2a);
+        
+    
+        var popup_231675bedc4539e67e322d19876149c7 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_ea422d050aaf06a6afdabe5038414b66 = $(`<div id="html_ea422d050aaf06a6afdabe5038414b66" style="width: 100.0%; height: 100.0%;"><b>La Parrilla Mine</b><br>Location: Durango<br>Company: First Majestic Silver<br>Mining Method: Underground</div>`)[0];
+                popup_231675bedc4539e67e322d19876149c7.setContent(html_ea422d050aaf06a6afdabe5038414b66);
+            
+        
+
+        marker_029f11d3b65b27cc6171a1e09c6dfe51.bindPopup(popup_231675bedc4539e67e322d19876149c7)
+        ;
+
+        
+    
+    
+            var feature_group_09bafcafe8a75c7bb6bd24da6bda749c = L.featureGroup(
+                {}
+            ).addTo(map_d948e432cd3c4d0d8ed86186da02709c);
+        
+    
+            var marker_d5941265b15ac8527b734bc4c097b2b2 = L.marker(
+                [23.176, -102.88],
+                {}
+            ).addTo(feature_group_09bafcafe8a75c7bb6bd24da6bda749c);
+        
+    
+            var icon_921529a09e198977483801457276ac69 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d5941265b15ac8527b734bc4c097b2b2.setIcon(icon_921529a09e198977483801457276ac69);
+        
+    
+        var popup_e3157c4bf857d5b99365241e1be47971 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_77984e906e64dc8e95fcb90ea0f22314 = $(`<div id="html_77984e906e64dc8e95fcb90ea0f22314" style="width: 100.0%; height: 100.0%;"><b>Fresnillo Mine</b><br>Location: Zacatecas<br>Company: Fresnillo plc<br>Mining Method: Underground</div>`)[0];
+                popup_e3157c4bf857d5b99365241e1be47971.setContent(html_77984e906e64dc8e95fcb90ea0f22314);
+            
+        
+
+        marker_d5941265b15ac8527b734bc4c097b2b2.bindPopup(popup_e3157c4bf857d5b99365241e1be47971)
+        ;
+
+        
+    
+    
+            var marker_4d5fc58363b5c14984cddb89de6c9fff = L.marker(
+                [23.375, -102.703],
+                {}
+            ).addTo(feature_group_09bafcafe8a75c7bb6bd24da6bda749c);
+        
+    
+            var icon_2fcc1cad8ad34db84e6f37f30c0a0b14 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4d5fc58363b5c14984cddb89de6c9fff.setIcon(icon_2fcc1cad8ad34db84e6f37f30c0a0b14);
+        
+    
+        var popup_2fc9b87665ab889b0bf5732dfda21dda = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_4c5cc228b49b7b0438498dae262d40ef = $(`<div id="html_4c5cc228b49b7b0438498dae262d40ef" style="width: 100.0%; height: 100.0%;"><b>Saucito Mine</b><br>Location: Zacatecas<br>Company: Fresnillo plc<br>Mining Method: Underground</div>`)[0];
+                popup_2fc9b87665ab889b0bf5732dfda21dda.setContent(html_4c5cc228b49b7b0438498dae262d40ef);
+            
+        
+
+        marker_4d5fc58363b5c14984cddb89de6c9fff.bindPopup(popup_2fc9b87665ab889b0bf5732dfda21dda)
+        ;
+
+        
+    
+    
+            var feature_group_277aa37308e3941b9fccfc19ab96eaf9 = L.featureGroup(
+                {}
+            ).addTo(map_d948e432cd3c4d0d8ed86186da02709c);
+        
+    
+            var marker_09ab312f29d14633577c8b7c1eccea23 = L.marker(
+                [21.014, -101.25],
+                {}
+            ).addTo(feature_group_277aa37308e3941b9fccfc19ab96eaf9);
+        
+    
+            var icon_f55a5e9aa2f5a5c09929a5d3825a34b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_09ab312f29d14633577c8b7c1eccea23.setIcon(icon_f55a5e9aa2f5a5c09929a5d3825a34b0);
+        
+    
+        var popup_e4a026fc22bcc80723067dc1e5205372 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_e66daa8a8f62ce92adc1f4aaba31f7d4 = $(`<div id="html_e66daa8a8f62ce92adc1f4aaba31f7d4" style="width: 100.0%; height: 100.0%;"><b>El Cubo Mine</b><br>Location: Guanajuato<br>Company: Guanajuato Silver<br>Mining Method: Underground</div>`)[0];
+                popup_e4a026fc22bcc80723067dc1e5205372.setContent(html_e66daa8a8f62ce92adc1f4aaba31f7d4);
+            
+        
+
+        marker_09ab312f29d14633577c8b7c1eccea23.bindPopup(popup_e4a026fc22bcc80723067dc1e5205372)
+        ;
+
+        
+    
+    
+            var feature_group_8818ce7dae107dc6fd3352bdfbc5de89 = L.featureGroup(
+                {}
+            ).addTo(map_d948e432cd3c4d0d8ed86186da02709c);
+        
+    
+            var marker_1cc65324b52278123286b03593c6a0fb = L.marker(
+                [28.789, -110.987],
+                {}
+            ).addTo(feature_group_8818ce7dae107dc6fd3352bdfbc5de89);
+        
+    
+            var icon_a7555bfd4322ca4dd142625f4a41a6be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1cc65324b52278123286b03593c6a0fb.setIcon(icon_a7555bfd4322ca4dd142625f4a41a6be);
+        
+    
+        var popup_9247c6c2c301929ba47ca4e7b2f33bf4 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_daa89cdf80d35b891a3343a8ed1a06f2 = $(`<div id="html_daa89cdf80d35b891a3343a8ed1a06f2" style="width: 100.0%; height: 100.0%;"><b>La Colorada Mine</b><br>Location: Sonora<br>Company: Pan American Silver<br>Mining Method: Underground</div>`)[0];
+                popup_9247c6c2c301929ba47ca4e7b2f33bf4.setContent(html_daa89cdf80d35b891a3343a8ed1a06f2);
+            
+        
+
+        marker_1cc65324b52278123286b03593c6a0fb.bindPopup(popup_9247c6c2c301929ba47ca4e7b2f33bf4)
+        ;
+
+        
+    
+</script>
+</html>
